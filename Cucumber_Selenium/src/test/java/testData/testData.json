@@ -1,0 +1,21 @@
+{
+ 
+    "attributesWithoutDollar": {
+      "Value 1": "122,365.24",
+      "Value 2": "599.00",
+      "Value 3": "850,139.9",
+      "Value 4": "23,329.50",
+      "Value 5": "566.27",
+      "TotalCount":"5",
+      "RightCountNotEqualsToZero":"0"
+      
+    },
+     "CurrencyWithDollar": {
+      "Value 1": "$122,365.24",
+      "Value 2": "$599.00",
+      "Value 3": "$850,139.9",
+      "Value 4": "$23,329.50",
+      "Value 5": "$566.27"
+      
+    }
+    }
