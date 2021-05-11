@@ -1,6 +1,6 @@
 package ObjectRepo;
 
-public class objectRepo {
+public class ObjectRepo {
 
 	public String xpathlal_val="//*[contains(@id,lal_val)]";
 	public static String xpathtxt_val="//*[contains(@id,txt_val)]";

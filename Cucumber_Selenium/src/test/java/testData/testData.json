@@ -7,7 +7,8 @@
       "Value 4": "23,329.50",
       "Value 5": "566.27",
       "TotalCount":"5",
-      "RightCountNotEqualsToZero":"0"
+      "RightCountNotEqualsToZero":"0",
+      "TotalBalance":"1,000,000.0"
       
     },
      "CurrencyWithDollar": {

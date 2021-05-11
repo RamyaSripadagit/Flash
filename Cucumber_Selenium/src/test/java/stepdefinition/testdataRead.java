@@ -9,9 +9,9 @@ import gherkin.deps.com.google.gson.JsonObject;
 
 public class testdataRead {
 	JsonObject ExpectedValue =null;
-	//please note this is dummy path i have kept testdata.json file in testdata package
 	
-	 File file = new File("C:\\Users\\sri\\Desktop\\test.txt");
+	
+	 File file = new File("C:\\Users\\vadap\\git\\repository\\Cucumber_Selenium\\src\\test\\java\\testData\\testData.json");
 	
 	 JsonObject obj=new JsonObject();
    
@@ -36,13 +36,8 @@ public class testdataRead {
 	 JsonObject RightCountNotEqualsToZero=ExpectedValue.getAsJsonObject("RightCountNotEqualsToZero");
 	 public  String RightCountNotEqualsTo_Zero=RightCountNotEqualsToZero.toString();
 	 
-	 public int total;
-	 public int totalamt;
-	 public void  total(int total, String  totalamt) {
-		 
-	 totalamt= values_1 + values_2 + values_3 + values_4 + values_5;
-	 total += Integer.parseInt(totalamt);
-	 this.total=total;
+	 JsonObject totalBalance1=ExpectedValue.getAsJsonObject("TotalBalance");
+	 public  String totalBalance2=values5.toString();
 		 
 	 }
 	 
@@ -51,4 +46,4 @@ public class testdataRead {
 	
 	 
 	
-}
+
